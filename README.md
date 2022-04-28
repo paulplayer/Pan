@@ -30,6 +30,7 @@ ln -s ../site-available/Webd ./Webd
 # webd 配置
 cp ./webd /user/bin/webd
 cp ./webd.conf /etc/webd.conf
+cp ./var/www/Webd /var/www/Webd
 ```
 
 
