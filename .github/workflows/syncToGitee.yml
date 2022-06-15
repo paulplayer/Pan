@@ -14,6 +14,7 @@ jobs:
           dst: 'gitee/paulplayer'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token:  ${{ secrets.GITEE_TOKEN }}
-          account_type: user
+          account_type: 'user'
           force_update: true
 			    debug: true
+          timeout: '1h'
